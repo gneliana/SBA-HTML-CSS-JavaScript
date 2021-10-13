@@ -1,0 +1,77 @@
+#bg-color {
+    background-color: #FCE7D9;
+}
+
+/* Navbar Section */
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* Care Tips Styling */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* form section */
+
+form {
+    margin: auto;
+    width: 700px;
+    border: 5px solid #E2D58B;
+}
+
+.container-form {
+    text-align: center;
+    padding: 10px;
+    background-color: #B0A6A0;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #E2D58B;
+    color: black;
+    border: none;
+}
+
+/* Footer */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}

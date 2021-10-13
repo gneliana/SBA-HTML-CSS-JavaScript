@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care for your bear</title>
+    <link rel="stylesheet" href="./resources/CSS/general-care.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+
+
+<body id="bg-color">
+    <style>
+        body {
+            font-family: 'Architects Daughter', cursive;
+        }
+    </style>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="nav-container">
+            <li class="nav-item">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Poodle's
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/general-care.html">General Care</a></li>
+                    <li><a class="dropdown-item" href="/fun-facts.html">Fun Facts</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./quizz.html">Quizz</a>
+            </li>
+        </div>
+    </nav>
+
+    <!-- Care Tips -->
+    <h1>Top 3 Poodle Care Tips</h1><br><br>
+    <h2>Care Tip #1: Offer a high-quality food</h2><br>
+    <p>What you feed your Poodle will greatly affect their health, both now and long-term. Far too many commercial
+        brands are subpar; they may have chemicals such as artificial coloring, flavoring and preservatives which
+        can cause everything from itchy skin to upset stomach. Some are linked to neurological issues and certain
+        cancers.
+        Far too many dog foods also have fillers which are cheap ingredients that only serve to plump up food
+        (making it appear as if there is more than is actually there); these are not absorbed by the body and simply
+        get flushed out. These are responsible for making a dog hungry soon after he ate which is linked to
+        coprophagia and malnutrition.
+        You'll also want to keep away from meat by-products which are animal parts deemed unfit for human
+        consumption. These are typically referred to as 4-D animals which stands for diseased, dying, dead, or
+        disabled and can be just about any species found as roadkill or sourced from zoos or farms. Body parts that
+        are put into dog food as by-products include beaks, hooves, spinal tissue, spleens, and other tissue that
+        you would not want your Poodle to be eating.
+    </p>
+    <h2>Care Tip #2: Proper Exercise</h2><br>
+    <p>Making sure that your Poodle receives enough exercise is vital to overall good health and is a step that can
+        help increase life span.
+        Physically, exercise keeps the heart healthy, works to maintain muscle tone and can reduce the risk of
+        developing several diseases including canine diabetes and even some cancers.
+        Psychologically, exercise helps a dog release pent-up energy and often leads to better behavior.
+        Socially,bringing a dog outside helps them to learn tolerance of outdoor elements which leads to being
+        better socialized and accepting of triggers such as other dogs, children, and such things as traffic.
+        Poodles, of all varieties, should ideally have two walks per day, lasting from 20 to 30 minutes. Add in a
+        daily cardio session; fetch is always a great choice. </p>
+    <h2>Care Tip #3: Annual Vet Visits</h2><br>
+    <p>Wellness checks are an important part of care. Just like humans should have annual health exams, so should
+        our pets. For senior Poodles, twice-per-year geriatric check-ups are needed.
+        There is a vast array of health issues that when caught early are exceedingly easier and less costly to
+        treat.
+        The vet will perform a complete examination of the body, listen to the heart and lungs and screening will be
+        done (urinalysis, stool sample, blood tests) to rule out common issues that do occur with dogs.
+        These are all important aspects of a checkup that can find issues before a dog is so ill that clinical signs
+        are obvious.
+    </p>
+
+    <!-- Form with regex validation -->
+    <form action="page">
+        <div class="container-form">
+            <h2>Thinking about owning a poodle? <br> Join our email and enjoy monthly articles on poodle care and
+                other topics</h2>
+        </div>
+        <div class="container-form" style="background-color: #B0A6A0;">
+            <input type="text" placeholder="Full Name" name="name"
+                pattern="^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)" required>
+            <input type="text" placeholder="Email" name="email" pattern="(\w\.?)+@[\w\.-]+\.\w{2,4}" required>
+            <label>
+                <input type="checkbox" checked="checked" name="agree"> Monthly Newsletter
+            </label>
+            <div class="container-form">
+                <input type="submit" value="Subscribe">
+            </div>
+        </div>
+    </form>
+
+    <!-- Footter -->
+    <div class="footer"><br><br></div>
+</body>
